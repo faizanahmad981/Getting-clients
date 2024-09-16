@@ -1,0 +1,135 @@
+/* 5 Services */
+@keyframes dance {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(0); }
+    75% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+
+.banner-section {
+    position: relative;
+    background-image: url('../images/background-image-banner.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Set the desired height */
+    color: white;
+  }
+
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+  }
+
+  .banner-content h1,
+  .banner-content h2 {
+    margin-bottom: 10px;
+  }
+
+  .banner-content button {
+    margin-top: 20px;
+  }
+
+  .custom-btn {
+    width: 425px; /* Fixed width for larger screens */
+    height: 29px; /* Fixed height */
+    border-radius: 20px 0px 0px 0px; /* Rounded corners */
+    background: #8800FF; /* Background color */
+    color: white; /* Text color */
+    opacity: 1; /* Set opacity to fully visible */
+    margin-top: 367px; /* Top margin to place the button */
+    /* Left margin to align the button */
+    display: flex;
+    
+  }
+section {
+    padding: 5rem 0;
+}
+
+.services_wrapper {
+    background: var(--gradient-banner-mesh);
+    width: 100%; 
+    padding: 0; 
+    margin: 0 auto; 
+}
+
+.services_wrapper .card {
+    background-color: var(--bg-light);
+    cursor: pointer;
+    width: 100%; 
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    padding: 16px; 
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    box-sizing: border-box; 
+}
+
+.services_wrapper .card:hover {
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    background: var(--bg-white);
+    animation: dance 0.6s ease-in-out infinite;
+}
+
+ 
+  .trust-by .row {
+    justify-content: center; /* Center the images in the row */
+  }
+
+
+.trust-by {
+    text-align: center; /* Center the section title */
+    margin-top: 50px;
+    background: linear-gradient(87.86deg, #390060 0.02%, #8800FF 99.98%);
+   color: white;
+  width: 100%;
+  }
+
+  .trust-by h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .trust-by .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px; /* No gap between the images */
+  }
+
+  .trust-by img {
+    width: 139px; /* Set width */
+    height: 83px; /* Set height */
+    opacity: 1; /* Set opacity */
+  }
+
+  /* Optional: Add responsive behavior */
+  @media (max-width: 768px) {
+    .trust-by img {
+      width: 100px; /* Adjust width for smaller screens */
+      height: auto; /* Adjust height accordingly */
+    }
+  }
+   /* Responsive design adjustments */
+   @media (max-width: 768px) {
+    .custom-btn {
+      width: 100%; /* Full width on smaller screens */
+      height: auto; /* Adjust height to fit content */
+      margin-left: 0px; /* Center the button */
+      margin-top: 20px; /* Reduce top margin */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .custom-btn {
+      width: 100%; /* Ensure full width on mobile devices */
+      height: 50px; /* Increase button height for better visibility */
+      font-size: 14px; /* Reduce text size */
+    }
+  }
