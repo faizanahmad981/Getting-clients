@@ -20,20 +20,17 @@
     display: block;
 }
 #carousel-outside{
-background-color: red;
+
 width: 59.375rem;
 justify-content: center;
 align-self: center;
 }
-        .custom-btn {
-    width: 30vw; /* Adjusted to be responsive */
-    height: 6vh; /* Adjusted to be responsive */
+.custom-btn {
     border-radius: 20px;
     background-color: #8800FF;
     color: white;
-    opacity: 1;
     margin-top: 20px;
-    text-align: center;
+    opacity: 1;
   }
   .box-style {
     width: 300px;
@@ -69,6 +66,16 @@ align-self: center;
     .space-x-8 {
       margin: 0;
     }
+    .custom-btn {
+    width: 30vw; 
+    height: 6vh; 
+    border-radius: 20px;
+    background-color: #8800FF;
+    color: white;
+    opacity: 1;
+    margin-top: 20px;
+    text-align: center;
+  }
   }
 
   @media (max-width: 480px) {
@@ -86,6 +93,16 @@ align-self: center;
     h2, p, h3 {
       font-size: 5vw;
     }
+    .custom-btn {
+    width: 30vw; 
+    height: 6vh; 
+    border-radius: 20px;
+    background-color: #8800FF;
+    color: white;
+    opacity: 1;
+    margin-top: 20px;
+    text-align: center;
+  }
   }
 
   @media (max-width: 768px) {
@@ -93,6 +110,16 @@ align-self: center;
       width: 40vw; /* Adjust button width for smaller screens */
       height: 7vh;
     }
+    .custom-btn {
+    width: 30vw; 
+    height: 6vh; 
+    border-radius: 20px;
+    background-color: #8800FF;
+    color: white;
+    opacity: 1;
+    margin-top: 20px;
+    text-align: center;
+  }
   }
 #colors-change{
   color: black;
@@ -105,13 +132,14 @@ align-self: center;
         <div class="flex items-center justify-center h-full">
           <div class="absolute top-1/2 left-4 transform -translate-y-1/2" style="margin-left: 4%;">
             <div style="margin-left: 0;">
-              <h1 class="text-4xl mb-2" style="font-size: 4vw; font-weight: 700; line-height: 4vw;">Struggling to Reach <br></h1>
-              <h1 class="text-4xl mb-2" style="font-size: 5vw; font-weight: 700;line-height: 4vw;">MORE CLIENTS?</h1>
-              <h3 class="text-xl mb-5" id="colors-change" style="font-size: 2.8vw; font-weight: 700; line-height: 4vw;">
+              <h1 class="text-4xl mb-2" style="font-size: 3.5vw; font-weight: 700; line-height: 4vw;">Struggling to Reach <br></h1>
+              <h1 class="text-4xl mb-2" style="font-size: 4.5vw; font-weight: 700;line-height: 4vw;">MORE CLIENTS?</h1>
+              <h3 class="text-xl mb-5" id="colors-change" style="font-size: 2.5vw; font-weight: 700; line-height: 4vw;">
                 Get your <span class="text-white">Personalized</span> Digital <br> Marketing 
                 guideline, <span class="text-white">FOR FREE!</span>
               </h3>
-              <button class="custom-btn flex items-center justify-center">
+             
+              <button class="custom-btn min-w-[150px] max-w-[300px] w-[30vw] min-h-[40px] max-h-[70px] h-[6vh] flex items-center justify-center text-base md:text-lg">
                 <span>Let's start</span>
               </button>
             </div>
@@ -185,15 +213,15 @@ align-self: center;
         <h1 class="text-2xl md:text-3xl font-semibold">Tim answers to popular questions</h1>
     
         <!-- Carousel Wrapper -->
-        <div class="relative mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8" id="carousel-outside" style="background-color: red;">
+        <div class="relative mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8" id="carousel-outside" >
             
             <!-- Left Arrow -->
-            <div class="absolute left-0 top-1/2 transform -translate-y-1/2 text-gray-400 text-2xl sm:text-3xl cursor-pointer z-10" onclick="prevSlide()" style="left: -2.5rem;">
+            <div class="absolute left-0 top-1/2 transform -translate-y-1/2 text-gray-400 text-2xl sm:text-3xl cursor-pointer z-10" onclick="prevSlide()" style="left: -1.5rem;">
                 <i class="fas fa-chevron-left"></i>
             </div>
             
             <!-- Right Arrow -->
-            <div class="absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400 text-2xl sm:text-3xl cursor-pointer z-10" onclick="nextSlide()" style="right: -2.5rem;">
+            <div class="absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400 text-2xl sm:text-3xl cursor-pointer z-10" onclick="nextSlide()" style="right: -1.5rem;">
                 <i class="fas fa-chevron-right"></i>
             </div>
             
