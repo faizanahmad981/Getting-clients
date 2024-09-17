@@ -12,19 +12,14 @@
 
         }
         .carousel-item {
-    display: none;
-    height: auto; /* Let the height adjust based on the content */
-    margin-top: 1rem;
-}
-.carousel-item.active {
-    display: block;
-}
-#carousel-outside{
-background-color: red;
-width: 59.375rem;
-justify-content: center;
-align-self: center;
-}
+            display: none;
+            height: 14.875rem;
+            margin-top: 70px;
+            width: 34.375rem;
+        }
+        .carousel-item.active {
+            display: block;
+        }
         .custom-btn {
     width: 30vw; /* Adjusted to be responsive */
     height: 6vh; /* Adjusted to be responsive */
@@ -40,9 +35,6 @@ align-self: center;
     height: auto;
     margin-left: 5%;
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    border: 1px solid #ddd; 
   }
 
   .container {
@@ -103,11 +95,11 @@ align-self: center;
 <body class="bg-white text-gray-800">
     <section class="relative bg-cover bg-center h-[400px] text-white" style="background-image: url('./assets/images/background-image-banner.png'); background-size: cover; background-position: center;">
         <div class="flex items-center justify-center h-full">
-          <div class="absolute top-1/2 left-4 transform -translate-y-1/2" style="margin-left: 4%;">
+          <div class="absolute top-1/2 left-4 transform -translate-y-1/2" style="margin-left: 10%;">
             <div style="margin-left: 0;">
               <h1 class="text-4xl mb-2" style="font-size: 4vw; font-weight: 700; line-height: 4vw;">Struggling to Reach <br></h1>
               <h1 class="text-4xl mb-2" style="font-size: 5vw; font-weight: 700;line-height: 4vw;">MORE CLIENTS?</h1>
-              <h3 class="text-xl mb-5" id="colors-change" style="font-size: 2.8vw; font-weight: 700; line-height: 4vw;">
+              <h3 class="text-xl mb-5" id="colors-change" style="font-size: 3.5vw; font-weight: 700; line-height: 4vw;">
                 Get your <span class="text-white">Personalized</span> Digital <br> Marketing 
                 guideline, <span class="text-white">FOR FREE!</span>
               </h3>
@@ -179,50 +171,39 @@ align-self: center;
       </div>
 
 
-    
-    
-    <div class="text-center py-12">
-        <h1 class="text-2xl md:text-3xl font-semibold">Tim answers to popular questions</h1>
-    
-        <!-- Carousel Wrapper -->
-        <div class="relative mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8" id="carousel-outside" style="background-color: red;">
-            
-            <!-- Left Arrow -->
-            <div class="absolute left-0 top-1/2 transform -translate-y-1/2 text-gray-400 text-2xl sm:text-3xl cursor-pointer z-10" onclick="prevSlide()" style="left: -2.5rem;">
+       <div class="text-center py-12">
+        <h1 class="text-2xl font-semibold">Tim answers to popular questions</h1>
+        <div class="mt-8 flex justify-center relative" style="background-color: red; width: 49.375rem; margin: 0 auto;">
+            <div class="absolute left-0 top-1/2 transform -translate-y-1/2 text-gray-400 text-3xl cursor-pointer" onclick="prevSlide()">
                 <i class="fas fa-chevron-left"></i>
             </div>
-            
-            <!-- Right Arrow -->
-            <div class="absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400 text-2xl sm:text-3xl cursor-pointer z-10" onclick="nextSlide()" style="right: -2.5rem;">
+            <div class="absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400 text-3xl cursor-pointer" onclick="nextSlide()">
                 <i class="fas fa-chevron-right"></i>
             </div>
-            
-            <!-- Carousel Container -->
-            <div id="carousel" class="relative bg-white shadow-lg rounded-lg p-8 overflow-hidden mx-auto">
+            <div id="carousel" class="relative bg-white shadow-lg rounded-lg p-8 max-w-2xl overflow-hidden" style="margin: 0 auto;">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <p class="text-lg md:text-xl font-semibold italic">“I’m not sure this will work for my specific business.”</p>
-                        <p class="mt-2 text-purple-700">R. 36, therapist</p>
-                        <p class="mt-4 text-gray-600">My team and I helped a variety of businesses, from law firms to office supply distributors, see significant improvements in their digital marketing. The strategies in your guide will be tailored to your industry's unique needs.</p>
+                    <div class="carousel-item active" >
+                        <p class="text-xl font-semibold italic">“I’m not sure this will work for my specific business.”</p>
+                        <p class="mt-2" style="color:  #8800FF;">R. 36, therapist</p>
+                        <p class="mt-4 text-gray-600">My team and I helped a variety of businesses, from law firms to office supply distributors, see significant improvements in their digital marketing. The strategies in your guide will be tailored to your industry's unique needs</p>
                     </div>
                     <div class="carousel-item hidden">
-                        <p class="text-lg md:text-xl font-semibold italic">“How long will it take to see results?”</p>
-                        <p class="mt-2 text-blue-500">J. 29, entrepreneur</p>
+                        <p class="text-xl font-semibold italic">“How long will it take to see results?”</p>
+                        <p class="text-blue-500 mt-2">J. 29, entrepreneur</p>
                         <p class="mt-4 text-gray-600">Results can vary, but many of our clients start seeing improvements within the first few months. Consistency and following the guidelines closely will yield the best results.</p>
                     </div>
                     <div class="carousel-item hidden">
-                        <p class="text-lg md:text-xl font-semibold italic">“What if I don’t have a big budget?”</p>
-                        <p class="mt-2 text-blue-500">A. 42, small business owner</p>
+                        <p class="text-xl font-semibold italic">“What if I don’t have a big budget?”</p>
+                        <p class="text-blue-500 mt-2">A. 42, small business owner</p>
                         <p class="mt-4 text-gray-600">Our strategies are designed to be effective even with limited budgets. We focus on high-impact, cost-effective methods to ensure you get the best return on your investment.</p>
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
-    
-    
-   
-    
+
+
     
     <div class="gradient-color from-purple-600 to-indigo-600 text-white py-12">
         <div class="text-center mb-8">
