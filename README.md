@@ -1,6 +1,6 @@
 # A Getting Client One-Page Website
 
-**Project Banner**  ![1](https://github.com/user-attachments/assets/9bed1048-102d-462d-a313-9009bcd638b2)
+
 
 
 
@@ -17,7 +17,7 @@ The **Getting Client** website is a responsive one-page project built using **HT
 - Tailwind Css
 - Responsive Design
 
----
+**Project Banner**  ![1](https://github.com/user-attachments/assets/9bed1048-102d-462d-a313-9009bcd638b2)
 
 ## Features
 
@@ -59,5 +59,5 @@ To view or modify this project:
 1. Clone the repository:  
    ```bash
    git clone (https://github.com/faizanahmad981/Getting-clients.git)
-2.  cd honey-bee
+2.  cd Getting-clients
    
