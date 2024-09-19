@@ -6,7 +6,7 @@
 
 ## Overview
 
-The **Getting Client** website is a responsive one-page project built using **HTML**, **CSS**, and **Bootstrap**. This project demonstrates a modern and elegant design, suitable for small business websites or personal portfolios.
+The **Getting Client** website is a responsive one-page project built using **HTML**, **CSS**, and **Tailwind**. This project demonstrates a modern and elegant design, suitable for small business websites or personal portfolios.
 
 ---
 
@@ -14,7 +14,7 @@ The **Getting Client** website is a responsive one-page project built using **HT
 
 - HTML5
 - CSS3
-- Bootstrap 5
+- Tailwind Css
 - Responsive Design
 
 ---
@@ -22,7 +22,7 @@ The **Getting Client** website is a responsive one-page project built using **HT
 ## Features
 
 - **Responsive Layout**: Optimized for various screen sizes, including mobile, tablet, and desktop.
-- **Bootstrap Components**: Using Bootstrap's grid system for a fluid, responsive design.
+
 - **Modern Design**: Clean, minimalistic, and visually appealing layout.
 
 ---
